@@ -1,0 +1,769 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .container {
+     width: 1440px;
+     margin: auto;
+ }
+
+ .background {
+     background-image: url(background.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
+     height: 1045px;
+ }
+
+
+ /* section-1 */
+ .logo {
+     font-family: "Inter", sans-serif;
+     font-size: 1.5rem !important;
+     font-weight: 700;
+     padding: 8px;
+ }
+
+ .lock {
+     padding: 18px;
+ }
+
+ .navbarrow {
+     font-family: "Work Sans", sans-serif;
+     display: flex;
+     column-gap: 85px;
+     padding: 20px;
+
+ }
+
+ .navbar a {
+     font-family: "Inter", sans-serif;
+ }
+
+ .cont-1 {
+     font-size: 82px;
+     font-weight: 700;
+     font-family: "Work Sans", sans-serif;
+ }
+
+ .cont-2 {
+     font-family: "Work Sans", sans-serif;
+     font-size: 24px;
+ }
+
+ .searchbtn {
+     width: 463px;
+     height: 57px;
+     position: relative;
+ }
+
+ #searchicon {
+     width: 41px;
+     height: 40px;
+     border-radius: 50px;
+     background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+     padding: 12px;
+     position: absolute;
+     right: 7px;
+     top: 7px;
+ }
+
+ .parent {
+     position: relative;
+ }
+
+ .pointer1 {
+     position: absolute;
+     top: 284px;
+     left: -8px;
+     width: 65%;
+ }
+
+ .childtooltip1 {
+     visibility: hidden;
+     padding: 5px;
+     color: #fff;
+     border: 2px solid white;
+     border-radius: 6px;
+     position: absolute;
+     bottom: 129%;
+     left: -2%;
+ }
+
+ .parent .childtooltip1::after {
+     border-style: solid;
+     border-color: #8f9092 transparent transparent transparent;
+     border-width: 15px;
+     position: absolute;
+     top: 100%;
+     left: 41%;
+ }
+
+ .pointer1:hover .childtooltip1 {
+     visibility: visible;
+ }
+
+ .parent .childtooltip1::after {
+     border-style: solid;
+     border-color: #8f9092 transparent transparent transparent;
+     border-width: 15px;
+     content: "";
+     position: absolute;
+     top: 100%;
+     left: 35%;
+ }
+
+ .parent {
+     position: relative;
+ }
+
+ .pointer2 {
+     position: absolute;
+     top: 467px;
+     left: 69px;
+     width: 65%;
+ }
+
+ .childtooltip2 {
+     visibility: hidden;
+     padding: 5px;
+     color: #fff;
+     border: 2px solid white;
+     border-radius: 6px;
+     position: absolute;
+     bottom: 129%;
+     left: -2%;
+ }
+
+ .pointer2:hover .childtooltip2 {
+     visibility: visible;
+ }
+
+ .parent .childtooltip2::after {
+     border-style: solid;
+     border-color: #8f9092 transparent transparent transparent;
+     border-width: 15px;
+     content: "";
+     position: absolute;
+     top: 100%;
+     left: 33%;
+ }
+
+ .parent {
+     position: relative;
+
+ }
+
+ .pointer3 {
+     position: absolute;
+     right: 18px;
+     bottom: -182px;
+ }
+
+ .childtooltip3 {
+     visibility: hidden;
+     position: absolute;
+     right: -17px;
+     bottom: 76px;
+     border-radius: 20px;
+     padding: 10px;
+     border: 2px solid white;
+ }
+
+ .parent .childtooltip3::after {
+     border-style: solid;
+     border-color: #8f9092 transparent transparent transparent;
+     border-width: 15px;
+     content: "";
+     position: absolute;
+     top: 100%;
+     left: 33%;
+ }
+
+ .pointer3:hover .childtooltip3 {
+     visibility: visible;
+ }
+
+ /* section-3 */
+ .section3 {
+     margin-top: 300px;
+ }
+
+ .products {
+     color: #081323;
+     font-family: "Work Sans", sans-serif;
+     font-size: 64px;
+     font-weight: 500;
+     width: 363px;
+ }
+
+ .collection {
+     font-family: "Work Sans", sans-serif;
+     font-size: 24px;
+     font-weight: 500;
+     color: #4F4F4F;
+ }
+
+ .plantcardrow {
+     display: flex;
+     gap: 20px;
+ }
+
+ .plantcard {
+     background: #c2d7f4;
+     width: 300px;
+     border-radius: 50px;
+
+ }
+
+ .plantimg {
+     margin-top: -120px;
+ }
+
+ .plantcarddescript1 {
+     width: 300px;
+     height: 260px;
+     border-radius: 50px;
+     background: #FFFFFF;
+     padding: 20px;
+     margin-top: 20px;
+     box-shadow: 0px 2px 5px #777;
+ }
+
+ .plantcarddescript2 {
+     width: 300px;
+     height: 253px;
+     border-radius: 50px;
+     background: #FFFFFF;
+     padding: 20px;
+     margin-top: 56px;
+     box-shadow: 0px 2px 5px whitesmoke;
+ }
+
+ .plantname {
+     color: #081323;
+     font-size: 32px;
+     font-weight: 500;
+     font-family: "Work Sans", sans-serif;
+ }
+
+ #staricon {
+     color: #F2C94C;
+ }
+
+ .rating {
+     font-size: 32px;
+     font-weight: 500;
+     font-family: "Work Sans", sans-serif;
+ }
+
+
+ #plus {
+     width: 60px;
+     height: 60px;
+     border-radius: 50px;
+     background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+     padding: 20px;
+     font-size: 21px;
+     color: white;
+ }
+
+
+ /* section-4 */
+
+ .section4 {
+     margin-top: 100px;
+
+ }
+
+ .interior {
+     color: #081323;
+     font-size: 64px;
+     font-weight: 500;
+     font-family: "Work Sans", sans-serif;
+     margin-top: 150px;
+ }
+
+ .interiortext {
+     font-family: "Work Sans", sans-serif;
+     color: #4F4F4F;
+     font-size: 24px;
+     font-weight: 400;
+ }
+
+ .livingroom {
+     position: relative;
+ }
+
+ .roomtext {
+     position: absolute;
+     top: 236px;
+     left: 218px;
+     font-size: 42px;
+     font-weight: 600;
+     font-family: "Work Sans", sans-serif;
+
+ }
+
+ .brownsofa {
+     opacity: 0.8;
+ }
+
+
+ /* section-5 */
+
+ .section5 {
+     margin-top: 200px;
+ }
+
+ .instruction {
+     width: 452px;
+     color: #081323;
+     font-family: "Work Sans", sans-serif;
+     font-size: 54px;
+     font-weight: 500;
+ }
+
+ .head {
+     color: #000000;
+     font-size: 32px;
+     font-weight: 500;
+     font-family: "Work Sans", sans-serif;
+ }
+
+ .explanation {
+     color: #4F4F4F;
+     width: 493px;
+     /* margin-top: -10px; */
+     font-size: 20px;
+     font-weight: 400;
+ }
+
+ /* section-6 */
+ .footer {
+     background: linear-gradient(93.99deg, #566270 0.51%, #283444 100%);
+     margin-top: 200px;
+ }
+
+ .news {
+     font-family: "Work Sans", sans-serif;
+     font-size: 48px;
+     font-weight: 500;
+ }
+
+ .email {
+     width: 463px;
+     position: relative;
+ }
+
+ .subscribe {
+     width: 145px;
+     height: 40px;
+     background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+     position: absolute;
+     right: 7px;
+     top: 8px;
+ }
+
+ .lastcontent {
+     width: 340px;
+ }
+
+ .lastconthead {
+     font-size: 24px;
+     font-weight: 700;
+     font-family: "Work Sans", sans-serif;
+ }
+
+ .lastcontent a {
+     font-size: 16px;
+     font-family: "Work Sans", sans-serif;
+     font-weight: 500;
+ }
+
+ .hamburgmenu {
+     width: 100%;
+     background: linear-gradient(93.99deg, #566270 0.51%, #283444 100%);
+     display: none !important;
+ }
+
+
+ .navbar-brand {
+     display: none;
+ }
+
+ .navmenu {
+     display: none;
+ }
+
+ .navlock {
+     display: none;
+ }
+
+ .hamburg {
+     display: none;
+ }
+
+ .accordion {
+     display: none;
+ }
+
+ /* media query 1200px */
+ @media(max-width:1200px) {
+     .background {
+         background-position: initial;
+     }
+
+     .cont-1 {
+         font-size: 64px;
+     }
+
+     .cont-2 {
+         font-size: 16px;
+     }
+
+     .searchbtn {
+         width: 402px;
+     }
+
+     .pointer1 {
+         left: 39px;
+         top: 187px;
+     }
+
+     .pointer2 {
+         top: 328px;
+         left: 87px;
+     }
+
+     .productsrow {
+         flex-direction: column;
+         align-items: center;
+         gap: 150px;
+     }
+
+     .explanation {
+         width: 380px;
+     }
+
+     .saplings {
+         width: 100%;
+     }
+
+     .lastconthead {
+         font-size: 19px;
+     }
+ }
+
+
+ /* media query 992px */
+ @media(max-width:992px) {
+     .background {
+         height: 758px;
+     }
+
+     .cont-1 {
+         font-size: 35px;
+     }
+
+     .searchbtn {
+         width: 323px;
+     }
+
+     .pointer1 {
+         top: 118px;
+     }
+
+     .pointer2 {
+         left: 90px;
+         top: 228px;
+     }
+
+     .pointer3 {
+         bottom: -87px;
+
+     }
+
+     .products {
+         font-size: 40px;
+     }
+
+     .productsrow {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .plantcardrow {
+         flex-direction: column;
+         align-items: center;
+         gap: 142px;
+     }
+
+     .roomtext {
+         font-size: 38px;
+         top: 166px;
+         left: 144px;
+     }
+
+     .instruction {
+         font-size: 39px;
+     }
+
+     .icon img {
+         width: 100%;
+     }
+
+     .head {
+         font-size: 22px;
+     }
+
+     .explanation {
+         font-size: 15px;
+         width: 95%;
+     }
+
+     .saplings {
+         margin-top: 70px;
+     }
+
+     .news {
+         font-size: 40px;
+     }
+
+     .email {
+         width: 341px;
+     }
+
+     .subscribe {
+         width: 117px;
+     }
+
+     .lastconthead {
+         font-size: 14px;
+     }
+ }
+
+
+
+ /* media query 767px */
+ @media(max-width:767px) {
+     .background {
+         height: 608px;
+     }
+
+     .navbarrow {
+         column-gap: 27px;
+     }
+
+     .lock {
+         padding: 28px;
+     }
+
+     .cont-1 {
+         font-size: 21px;
+     }
+
+     .cont-2 {
+         font-size: 12px;
+     }
+
+     .searchbtn {
+         width: 234px;
+     }
+
+     .pointer1 {
+         top: 49px;
+         left: -71px;
+     }
+
+     .pointer2 {
+         left: -29px;
+         top: 145px;
+     }
+
+     .pointer3 {
+         bottom: -26px;
+         right: -60px;
+     }
+
+     .pointer3 img {
+         width: 61%;
+     }
+
+     .pointer1 img,
+     .pointer2 img {
+         width: 12%;
+     }
+
+     .products {
+         width: 267px;
+         font-size: 31px;
+     }
+
+     .collection {
+         width: 169px;
+         font-size: 20px;
+     }
+
+     .interior {
+         font-size: 41px;
+     }
+
+     .interiortext {
+         font-size: 20px;
+     }
+
+     .roomtext {
+         top: 191px;
+         left: 166px;
+     }
+
+     .instruction {
+         width: 100%;
+         font-size: 35px;
+     }
+
+     .lastcontent {
+         flex-direction: column;
+         align-items: center;
+     }
+ }
+
+
+
+ /* media query 575px */
+ @media(max-width:575px) {
+     .background {
+         height: 415px;
+
+     }
+     .hamburgmenu {
+         display: block !important;
+     }
+
+     .navbar-brand {
+         display: block;
+     }
+
+     .navmenu {
+         display: block;
+     }
+
+     .navlock {
+         display: block;
+     }
+
+     .hamburg {
+         display: block;
+     }
+
+     .navbarrow {
+         display: none;
+     }
+
+     .logo {
+         display: none;
+     }
+
+     .lock {
+         display: none;
+     }
+
+     .pointer1 img {
+         width: 10%;
+     }
+
+     .pointer1 {
+         left: -7px;
+         top: 4px;
+     }
+
+     .pointer2 img {
+         width: 5%;
+     }
+
+     .pointer2 {
+         top: 73px;
+         left: 38px;
+     }
+
+     .pointer3 img {
+         width: 40%;
+     }
+
+     .pointer3 {
+         bottom: -50px;
+         right: 6px;
+     }
+
+     .cont-1 {
+         font-size: 11px;
+         margin-top: -37px;
+     }
+
+     .cont-2 {
+         font-size: 8px;
+     }
+
+     .searchbtn {
+         height: 40px;
+         width: 152px;
+         margin-top: -15px;
+     }
+
+     #searchicon {
+         width: 35px;
+         height: 32px;
+         padding: 7px;
+         top: 3px;
+     }
+
+     .products {
+         font-size: 15px;
+         width: 144px;
+     }
+
+     .collection {
+         font-size: 15px;
+     }
+
+     .roomtext {
+         top: 174px;
+         left: 116px;
+         font-size: 18px;
+     }
+
+     .plantimg img {
+         width: 100%;
+     }
+
+     .interior {
+         font-size: 27px;
+     }
+
+     .instruction {
+         font-size: 30px;
+     }
+
+     .email {
+         width: 292px;
+     }
+
+     .subscribe {
+         width: 99px;
+     }
+
+     .lastconthead {
+         display: none;
+     }
+
+     .lastcontent {
+         display: none;
+     }
+
+     .accordion {
+         display: block;
+     }
+ }
